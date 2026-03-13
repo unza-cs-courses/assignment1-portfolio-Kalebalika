@@ -14,6 +14,7 @@
 
     <nav>
         <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -25,116 +26,116 @@
 
 <main>
 
-<section id="about">
-    <h2>About Me</h2>
+    <!-- Hero / Home Section -->
+    <section id="home" class="hero">
+        <h2>Welcome!</h2>
+        <p>Hi, I'm Kalebalika Chileshe — Software Engineer & Web Developer</p>
+        <a href="#projects" class="btn">View My Projects</a>
+    </section>
 
-    <div class="about-content">
-        <img src="images/ProfilePic.jpg" alt="Profile picture of Kalebalika Chileshe" width="150" class="about-image">
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="images/ProfilePic.jpg" alt="Profile picture of Kalebalika Chileshe" width="150" class="about-image">
+            <div>
+                <p>My name is Kalebalika Chileshe, and I come from a family of five, eldest son among three brothers and one sister. After completing my secondary education at Ndeke Secondary School, I pursued a Bachelor's degree in Computer Science at the University of Zambia, where I am currently majoring in Software Engineering.</p>
 
-        <div>
-            <p>My name is Kalebalika Chileshe, and I come from a family of five, eldest son among three brothers and one sister. After completing my secondary education at Ndeke Secondary School, I pursued a Bachelor's degree in Computer Science at the University of Zambia, where I am currently majoring in Software Engineering.</p>
-
-            <p class="highlight">My passion for web development grew from a desire to build a professional digital portfolio to market my technical skills and showcase my work. Beyond my personal projects, I actively provide web-related services to clients, leveraging my academic background to deliver functional and impactful online solutions.</p>
+                <p class="highlight">My passion for web development grew from a desire to build a professional digital portfolio to market my technical skills and showcase my work. Beyond my personal projects, I actively provide web-related services to clients, leveraging my academic background to deliver functional and impactful online solutions.</p>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="skills">
-    <h2>My Skills</h2>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul class="skills-grid">
+            <li><strong>Web Development</strong> - HTML5, CSS3, JavaScript</li>
+            <li><strong>Photo Editing</strong> - Adobe Photoshop, GIMP</li>
+            <li><strong>Programming (Python)</strong> - Backend development, automation scripts</li>
+            <li><strong>Database Management</strong> - SQL, database design</li>
+            <li><strong>Problem Solving</strong> - Analytical thinking, troubleshooting</li>
+        </ul>
+    </section>
 
-    <ul class="skills-grid">
-        <li><strong>Web Development</strong> - HTML5, CSS3, JavaScript</li>
-        <li><strong>Photo Editing</strong> - Adobe Photoshop, GIMP</li>
-        <li><strong>Programming (Python)</strong> - Backend development, automation scripts</li>
-        <li><strong>Database Management</strong> - SQL, database design</li>
-        <li><strong>Problem Solving</strong> - Analytical thinking, troubleshooting</li>
-    </ul>
-</section>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <article class="project-card">
+                <h3>University Library Database</h3>
+                <p>My first project was about creating a university database to manage students, lecturers, library staff members and keeping track of books. I used Python and SQL for the backend, and HTML, CSS, and JavaScript for the frontend to create a comprehensive library management system.</p>
+                <a href="#" class="btn">View Project</a>
+            </article>
 
-<section id="projects">
-    <h2>My Projects</h2>
+            <article class="project-card">
+                <h3>EnoSound (Coming Soon).</h3>
+                <p>I am currently working on an app to enable musicians connect, trade, and tune their musical instruments</p>
+            </article>
 
-    <div class="projects-grid">
-
-        <article class="project-card">
-            <h3>University Library Database</h3>
-            <p>My first project was about creating a university database to manage students, lecturers, library staff members and keeping track of books. I used Python and SQL for the backend, and HTML, CSS, and JavaScript for the frontend to create a comprehensive library management system.</p>
-            <a href="#" class="btn">View Project</a>
-        </article>
-
-        <article class="project-card">
-            <h3>EnoSound (Coming Soon)</h3>
-            <p>I am currently working on an app to enable musicians to connect, trade, and tune their musical instruments.</p>
-        </article>
-
-        <article class="project-card">
-            <h3>Portfolio Website</h3>
-            <p>This portfolio website showcases my skills, projects, and contact information using HTML, CSS, and JavaScript.</p>
-            <a href="#" class="btn">View Project</a>
-        </article>
-
-    </div>
-</section>
-
-<section id="certifications">
-    <h2>Certifications & Education</h2>
-    <ul>
-        <li><strong>Bachelor of Computer Science</strong> - University of Zambia (Current)</li>
-        <li><strong>Secondary Education</strong> - Ndeke Secondary School</li>
-        <li><strong>Java Programming</strong></li>
-        <li><strong>Python Programming</strong> - Self-taught, project experience</li>
-    </ul>
-</section>
-
-<section id="contact">
-    <h2>Contact Me</h2>
-
-    <div class="contact-container">
-
-        <div>
-            <p>Name: Kalebalika Chileshe</p>
-            <p>Email: <a href="mailto:kalebalikachileshe@gmail.com">kalebalikachileshe@gmail.com</a></p>
+            <article class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>This portfolio website showcases my projects, skills, and contact information. Built with HTML, CSS (Flexbox & Grid), and responsive design techniques.</p>
+            </article>
         </div>
+    </section>
 
-        <form action="#" method="post" class="contact-form">
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2>Certifications & Education</h2>
+        <ul>
+            <li><strong>Bachelor of Computer Science</strong> - University of Zambia (Current)</li>
+            <li><strong>Secondary Education</strong> - Ndeke Secondary School</li>
+            <li><strong>Java Programming</strong></li>
+            <li><strong>Python Programming</strong> - Self-taught, project experience</li>
+        </ul>
+    </section>
 
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name" required>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <div>
+                <p>Name: Kalebalika Chileshe</p>
+                <p>Email: <a href="mailto:kalebalikachileshe@gmail.com">kalebalikachileshe@gmail.com</a></p>
             </div>
 
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="user_email" required>
-            </div>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" required>
+                </div>
 
-            <div class="form-group">
-                <label for="subject">Subject:</label>
-                <select id="subject" name="subject">
-                    <option value="general">General Inquiry</option>
-                    <option value="web-dev">Web Development Services</option>
-                    <option value="collaboration">Project Collaboration</option>
-                </select>
-            </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="user_email" required>
+                </div>
 
-            <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea id="message" name="user_message" rows="5" required placeholder="Tell me about your project or inquiry..."></textarea>
-            </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject">
+                        <option value="general">General Inquiry</option>
+                        <option value="web-dev">Web Development Services</option>
+                        <option value="collaboration">Project Collaboration</option>
+                    </select>
+                </div>
 
-            <div class="form-group">
-                <button type="submit" class="btn">Send Message</button>
-            </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="user_message" rows="5" required placeholder="Tell me about your project or inquiry..."></textarea>
+                </div>
 
-        </form>
-    </div>
-</section>
+                <div class="form-group">
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
 
 </main>
 
 <footer class="site-footer">
     <p>&copy; 2026 Kalebalika Chileshe. All rights reserved.</p>
-
     <ul class="social-links">
         <li><a href="https://github.com/Kalebalika">GitHub</a></li>
     </ul>
