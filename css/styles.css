@@ -206,20 +206,29 @@ form input:focus, form textarea:focus, form select:focus {
     gap: 2rem;
 }
 
-/* Media Queries */
-@media (max-width: 768px) {
+/* Media Queries (3 breakpoints) */
+
+/* 1️⃣ Large tablets / small desktops (~992px) */
+@media (max-width: 992px) {
     .about-content, .contact-container {
         flex-direction: column;
     }
 }
 
-@media (max-width: 576px) {
+/* 2️⃣ Tablets / medium devices (~768px) */
+@media (max-width: 768px) {
     .nav-list {
         flex-direction: column;
         align-items: flex-start;
     }
-
     .skills-grid, .projects-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+/* 3️⃣ Mobile / extra small devices (~576px) */
+@media (max-width: 576px) {
+    header.site-header {
+        text-align: center;
     }
 }
